@@ -52,7 +52,7 @@
             // panelSideMenu
             // 
             this.panelSideMenu.AutoScroll = true;
-            this.panelSideMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(78)))), ((int)(((byte)(184)))), ((int)(((byte)(206)))));
+            this.panelSideMenu.BackColor = System.Drawing.Color.LightBlue;
             this.panelSideMenu.Controls.Add(this.panel4);
             this.panelSideMenu.Controls.Add(this.button8);
             this.panelSideMenu.Controls.Add(this.panel3);
@@ -83,7 +83,7 @@
             this.button10.FlatAppearance.BorderSize = 0;
             this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button10.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(78)))), ((int)(((byte)(184)))), ((int)(((byte)(206)))));
+            this.button10.ForeColor = System.Drawing.Color.LightBlue;
             this.button10.Location = new System.Drawing.Point(0, 30);
             this.button10.Name = "button10";
             this.button10.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
@@ -101,7 +101,7 @@
             this.button9.FlatAppearance.BorderSize = 0;
             this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button9.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(78)))), ((int)(((byte)(184)))), ((int)(((byte)(206)))));
+            this.button9.ForeColor = System.Drawing.Color.LightBlue;
             this.button9.Location = new System.Drawing.Point(0, 0);
             this.button9.Name = "button9";
             this.button9.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
@@ -145,7 +145,7 @@
             this.button7.FlatAppearance.BorderSize = 0;
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button7.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(78)))), ((int)(((byte)(184)))), ((int)(((byte)(206)))));
+            this.button7.ForeColor = System.Drawing.Color.LightBlue;
             this.button7.Location = new System.Drawing.Point(0, 30);
             this.button7.Name = "button7";
             this.button7.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
@@ -163,7 +163,7 @@
             this.button6.FlatAppearance.BorderSize = 0;
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button6.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(78)))), ((int)(((byte)(184)))), ((int)(((byte)(206)))));
+            this.button6.ForeColor = System.Drawing.Color.LightBlue;
             this.button6.Location = new System.Drawing.Point(0, 0);
             this.button6.Name = "button6";
             this.button6.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
@@ -208,7 +208,7 @@
             this.button4.FlatAppearance.BorderSize = 0;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(78)))), ((int)(((byte)(184)))), ((int)(((byte)(206)))));
+            this.button4.ForeColor = System.Drawing.Color.LightBlue;
             this.button4.Location = new System.Drawing.Point(0, 60);
             this.button4.Name = "button4";
             this.button4.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
@@ -225,7 +225,7 @@
             this.button3.FlatAppearance.BorderSize = 0;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(78)))), ((int)(((byte)(184)))), ((int)(((byte)(206)))));
+            this.button3.ForeColor = System.Drawing.Color.LightBlue;
             this.button3.Location = new System.Drawing.Point(0, 30);
             this.button3.Name = "button3";
             this.button3.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
@@ -242,7 +242,7 @@
             this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(78)))), ((int)(((byte)(184)))), ((int)(((byte)(206)))));
+            this.button2.ForeColor = System.Drawing.Color.LightBlue;
             this.button2.Location = new System.Drawing.Point(0, 0);
             this.button2.Name = "button2";
             this.button2.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
@@ -285,7 +285,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(78)))), ((int)(((byte)(184)))), ((int)(((byte)(206)))));
             this.ClientSize = new System.Drawing.Size(950, 600);
             this.Controls.Add(this.panelSideMenu);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
