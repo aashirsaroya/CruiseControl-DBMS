@@ -1,0 +1,12 @@
+C:\Users\aashir\source\repos\traveltide\traveltide\bin\Debug\traveltide.exe.config
+C:\Users\aashir\source\repos\traveltide\traveltide\bin\Debug\traveltide.exe
+C:\Users\aashir\source\repos\traveltide\traveltide\bin\Debug\traveltide.pdb
+C:\Users\aashir\source\repos\traveltide\traveltide\obj\Debug\traveltide.csprojAssemblyReference.cache
+C:\Users\aashir\source\repos\traveltide\traveltide\obj\Debug\traveltide.Form1.resources
+C:\Users\aashir\source\repos\traveltide\traveltide\obj\Debug\traveltide.Properties.Resources.resources
+C:\Users\aashir\source\repos\traveltide\traveltide\obj\Debug\traveltide.csproj.GenerateResource.cache
+C:\Users\aashir\source\repos\traveltide\traveltide\obj\Debug\traveltide.csproj.CoreCompileInputs.cache
+C:\Users\aashir\source\repos\traveltide\traveltide\obj\Debug\traveltide.exe
+C:\Users\aashir\source\repos\traveltide\traveltide\obj\Debug\traveltide.pdb
+C:\Users\aashir\source\repos\traveltide\traveltide\obj\Debug\traveltide.Form2.resources
+C:\Users\aashir\source\repos\traveltide\traveltide\obj\Debug\traveltide.Form3.resources
