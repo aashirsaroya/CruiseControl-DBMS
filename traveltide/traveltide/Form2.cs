@@ -16,5 +16,14 @@ namespace traveltide
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            String message = "You have been registered.";
+            MessageBox.Show(message);
+            this.Close();
+            Form1 f1 = new Form1();
+            f1.Show();
+        }
     }
 }

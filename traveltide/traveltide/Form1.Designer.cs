@@ -76,6 +76,7 @@
             this.textBox2.Size = new System.Drawing.Size(237, 27);
             this.textBox2.TabIndex = 5;
             this.textBox2.Text = "Password";
+            this.textBox2.WordWrap = false;
             // 
             // panel2
             // 

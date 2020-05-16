@@ -91,5 +91,12 @@ namespace traveltide
         {
             hideSubMenu();
         }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Form1 f1 = new Form1();
+            f1.Show();
+        }
     }
 }

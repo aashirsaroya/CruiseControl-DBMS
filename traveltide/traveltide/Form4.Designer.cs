@@ -43,6 +43,7 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button11 = new System.Windows.Forms.Button();
             this.panelSideMenu.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -52,7 +53,12 @@
             // panelSideMenu
             // 
             this.panelSideMenu.AutoScroll = true;
+<<<<<<< HEAD
+            this.panelSideMenu.BackColor = System.Drawing.Color.LightBlue;
+            this.panelSideMenu.Controls.Add(this.button11);
+=======
             this.panelSideMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(78)))), ((int)(((byte)(184)))), ((int)(((byte)(206)))));
+>>>>>>> 7ef53c29b2a51854589f26f5774f5a2be98a58a3
             this.panelSideMenu.Controls.Add(this.panel4);
             this.panelSideMenu.Controls.Add(this.button8);
             this.panelSideMenu.Controls.Add(this.panel3);
@@ -256,15 +262,14 @@
             // button1
             // 
             this.button1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold);
             this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
             this.button1.Location = new System.Drawing.Point(0, 145);
             this.button1.Name = "button1";
             this.button1.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.button1.Size = new System.Drawing.Size(250, 45);
-            this.button1.TabIndex = 1;
+            this.button1.TabIndex = 4;
             this.button1.Text = "Explore";
             this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button1.UseVisualStyleBackColor = true;
@@ -280,6 +285,22 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(250, 145);
             this.panel1.TabIndex = 1;
+            // 
+            // button11
+            // 
+            this.button11.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button11.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
+            this.button11.Location = new System.Drawing.Point(0, 504);
+            this.button11.Name = "button11";
+            this.button11.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.button11.Size = new System.Drawing.Size(250, 45);
+            this.button11.TabIndex = 8;
+            this.button11.Text = "Log Out";
+            this.button11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
             // Form4
             // 
@@ -318,5 +339,6 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button button11;
     }
 }
