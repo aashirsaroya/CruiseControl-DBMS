@@ -98,5 +98,18 @@ namespace traveltide
             Form1 f1 = new Form1();
             f1.Show();
         }
+        private Form activeForm = null;
+        private void openChildForm(Form childForm)
+        {
+            if (activeForm != null)
+                activeForm.Close();
+            activeForm = childForm;
+            childForm.TopLevel = false;
+            childForm.FormBorderStyle = FormBorderStyle.None;
+            childForm.Dock = DockStyle.Fill;
+            panel5.Controls.Add(childForm);
+            childForm.BringToFront();
+            childForm.Show();
+        }
     }
 }
