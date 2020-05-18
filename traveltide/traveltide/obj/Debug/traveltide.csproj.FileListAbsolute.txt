@@ -43,3 +43,5 @@ C:\VS\DBMS-Project\traveltide\traveltide\obj\Debug\traveltide.Form3.resources
 C:\VS\DBMS-Project\traveltide\traveltide\obj\Debug\traveltide.Form4.resources
 C:\VS\DBMS-Project\traveltide\traveltide\obj\Debug\traveltide.Properties.Resources.resources
 C:\VS\DBMS-Project\traveltide\traveltide\obj\Debug\traveltide.csproj.GenerateResource.Cache
+C:\VS\DBMS-Project\traveltide\traveltide\obj\Debug\traveltide.Form5.resources
+C:\VS\DBMS-Project\traveltide\traveltide\obj\Debug\traveltide.Form6.resources

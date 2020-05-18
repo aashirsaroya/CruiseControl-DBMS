@@ -65,11 +65,6 @@ namespace traveltide
         private void button6_Click(object sender, EventArgs e)
         {
             hideSubMenu();
-            Form5 f5 = new Form5();
-            f5.TopLevel = false;
-            f5.TopMost = true;
-            panel5.Controls.Add(f5);
-            f5.Show();
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -80,11 +75,6 @@ namespace traveltide
         private void button7_Click(object sender, EventArgs e)
         {
             hideSubMenu();
-            Form6 f6 = new Form6();
-            f6.TopLevel = false;
-            f6.TopMost = true;
-            panel5.Controls.Add(f6);
-            f6.Show();
         }
 
         private void button8_Click(object sender, EventArgs e)
