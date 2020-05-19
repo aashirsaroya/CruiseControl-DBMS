@@ -42,7 +42,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(676, 68);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Our Ports";
+            this.label2.Text = "Departure Ports";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 

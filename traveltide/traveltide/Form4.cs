@@ -70,6 +70,7 @@ namespace traveltide
             f5.TopMost = true;
             panel5.Controls.Add(f5);
             f5.Show();
+            openChildForm(new Form5());
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -85,6 +86,7 @@ namespace traveltide
             f6.TopMost = true;
             panel5.Controls.Add(f6);
             f6.Show();
+            openChildForm(new Form6());
         }
 
         private void button8_Click(object sender, EventArgs e)
