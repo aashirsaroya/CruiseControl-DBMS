@@ -167,5 +167,23 @@
   <ItemGroup>
     <None Include="Resources\badalogoreturns.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hong-kong.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spain.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\singapore.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bahamas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rome.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\galveston.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
