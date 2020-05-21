@@ -103,6 +103,26 @@ namespace traveltide.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap cruise {
+            get {
+                object obj = ResourceManager.GetObject("cruise", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Espeo {
+            get {
+                object obj = ResourceManager.GetObject("Espeo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap forgotpassword {
             get {
                 object obj = ResourceManager.GetObject("forgotpassword", resourceCulture);
@@ -136,6 +156,16 @@ namespace traveltide.Properties {
         internal static System.Drawing.Bitmap gameroom {
             get {
                 object obj = ResourceManager.GetObject("gameroom", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Glace {
+            get {
+                object obj = ResourceManager.GetObject("Glace", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -303,9 +333,39 @@ namespace traveltide.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Sylve {
+            get {
+                object obj = ResourceManager.GetObject("Sylve", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Sylve2 {
+            get {
+                object obj = ResourceManager.GetObject("Sylve2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap traveltide {
             get {
                 object obj = ResourceManager.GetObject("traveltide", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Umbr {
+            get {
+                object obj = ResourceManager.GetObject("Umbr", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
