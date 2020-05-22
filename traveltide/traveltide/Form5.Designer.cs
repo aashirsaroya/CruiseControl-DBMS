@@ -63,24 +63,17 @@
             this.comboBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(70)))), ((int)(((byte)(95)))));
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
-            "Port of Nassau, Nassau, Bahamas",
-            "Port of Out Islands, Out Islands, Bahamas",
-            "Port of Hong Kong, Hong Kong, China",
-            "Port of Shanghai, Shanghai, China",
-            "Tianjin Port, Beijing, China",
-            "Port of Civitavecchia, Rome, Italy",
-            "Matsugae Pier, Nagasaki, Japan",
-            "Port of Cozumel, Cozumel Island, Mexico",
-            "Port of Singapore, Pasir Panjang, Singapore",
-            "Port of Ibiza, Ibiza, Spain",
-            "Port of Malaga, Malaga, Spain",
-            "Port of Valencia, Valencia, Spain",
-            "Port of Canaveral, Canaveral, USA",
-            "Port of Everglades, Everglades, USA",
-            "Port of Galveston, Galveston, USA",
-            "Port of Miami, Miami, USA",
-            "Port of Tampa, Tampa, USA"});
-            this.comboBox1.Location = new System.Drawing.Point(63, 266);
+            "Hong Kong, China",
+            "Shanghai, China",
+            "Beijing, China",
+            "Rome, Italy",
+            "Pasir Panjang, Singapore",
+            "Canaveral, USA",
+            "Everglades, USA",
+            "Galveston, USA",
+            "Miami, USA",
+            "Tampa, USA"});
+            this.comboBox1.Location = new System.Drawing.Point(63, 307);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(277, 24);
             this.comboBox1.TabIndex = 2;
@@ -91,7 +84,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
-            this.label2.Location = new System.Drawing.Point(63, 223);
+            this.label2.Location = new System.Drawing.Point(63, 259);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(71, 22);
             this.label2.TabIndex = 3;
@@ -102,7 +95,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
-            this.label3.Location = new System.Drawing.Point(63, 343);
+            this.label3.Location = new System.Drawing.Point(63, 370);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(46, 22);
             this.label3.TabIndex = 4;
@@ -113,10 +106,18 @@
             this.comboBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(78)))), ((int)(((byte)(184)))), ((int)(((byte)(206)))));
             this.comboBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(70)))), ((int)(((byte)(95)))));
             this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(63, 386);
+            this.comboBox2.Items.AddRange(new object[] {
+            "Nassau, Bahamas",
+            "Out Islands, Bahamas",
+            "Nagasaki, Japan",
+            "Cozumel Island, Mexico",
+            "Ibiza, Spain",
+            "Malaga, Spain",
+            "Valencia, Spain"});
+            this.comboBox2.Location = new System.Drawing.Point(63, 418);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(277, 24);
-            this.comboBox2.TabIndex = 5;
+            this.comboBox2.TabIndex = 2;
             // 
             // panel5
             // 
@@ -147,7 +148,7 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(70)))), ((int)(((byte)(95)))));
-            this.button1.Location = new System.Drawing.Point(214, 482);
+            this.button1.Location = new System.Drawing.Point(214, 507);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(275, 45);
             this.button1.TabIndex = 12;
@@ -170,9 +171,9 @@
             "6",
             "7",
             "8"});
-            this.comboBox3.Location = new System.Drawing.Point(425, 386);
+            this.comboBox3.Location = new System.Drawing.Point(425, 418);
             this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(221, 24);
+            this.comboBox3.Size = new System.Drawing.Size(200, 24);
             this.comboBox3.TabIndex = 11;
             // 
             // label6
@@ -180,7 +181,7 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
-            this.label6.Location = new System.Drawing.Point(425, 343);
+            this.label6.Location = new System.Drawing.Point(425, 370);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(133, 22);
             this.label6.TabIndex = 10;
@@ -199,7 +200,7 @@
             // dateTimePicker1
             // 
             this.dateTimePicker1.CalendarForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(70)))), ((int)(((byte)(95)))));
-            this.dateTimePicker1.Location = new System.Drawing.Point(425, 266);
+            this.dateTimePicker1.Location = new System.Drawing.Point(425, 307);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(200, 22);
             this.dateTimePicker1.TabIndex = 8;
@@ -209,7 +210,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
-            this.label4.Location = new System.Drawing.Point(425, 223);
+            this.label4.Location = new System.Drawing.Point(425, 259);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(127, 22);
             this.label4.TabIndex = 7;

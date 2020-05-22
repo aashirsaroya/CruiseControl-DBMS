@@ -49,3 +49,7 @@ C:\Users\aashir\Desktop\DBMS-Project\traveltide\traveltide\obj\Debug\traveltide.
 C:\Users\aashir\Desktop\DBMS-Project\traveltide\traveltide\obj\Debug\traveltide.Form6.resources
 C:\Users\aashir\Desktop\DBMS-Project\traveltide\traveltide\obj\Debug\traveltide.Form7.resources
 C:\Users\aashir\Desktop\DBMS-Project\traveltide\traveltide\obj\Debug\traveltide.Form8.resources
+C:\VS\DBMS-Project\traveltide\traveltide\obj\Debug\traveltide.Form7.resources
+C:\VS\DBMS-Project\traveltide\traveltide\obj\Debug\traveltide.Form8.resources
+C:\VS\DBMS-Project\traveltide\traveltide\obj\Debug\traveltide.Form9.resources
+C:\VS\DBMS-Project\traveltide\traveltide\obj\Debug\traveltide.Form10.resources
