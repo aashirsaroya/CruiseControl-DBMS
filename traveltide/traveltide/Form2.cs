@@ -19,7 +19,7 @@ namespace traveltide
 
         private void button1_Click(object sender, EventArgs e)
         {
-            String message = "You have been registered.";
+            String message = "Thank You for registering with us:)";
             MessageBox.Show(message);
             this.Close();
             Form1 f1 = new Form1();

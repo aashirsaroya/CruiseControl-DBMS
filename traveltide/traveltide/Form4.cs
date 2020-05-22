@@ -62,6 +62,7 @@ namespace traveltide
         {
             hideSubMenu();
             openChildForm(new Form8());
+
         }
 
         private void button6_Click(object sender, EventArgs e)
