@@ -134,7 +134,7 @@
             // 
             this.pictureBox4.BackgroundImage = global::traveltide.Properties.Resources.rome;
             this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox4.Location = new System.Drawing.Point(43, 327);
+            this.pictureBox4.Location = new System.Drawing.Point(33, 327);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(280, 198);
             this.pictureBox4.TabIndex = 6;

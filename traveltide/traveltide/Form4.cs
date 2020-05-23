@@ -50,11 +50,6 @@ namespace traveltide
         private void button2_Click(object sender, EventArgs e)
         {
             hideSubMenu();
-            Form10 f10 = new Form10();
-            f10.TopLevel = false;
-            f10.TopMost = true;
-            panel5.Controls.Add(f10);
-            f10.Show();
             openChildForm(new Form10());
         }
 
