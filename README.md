@@ -1,1 +1,1 @@
-# Developing frontend for a cruise ship mangaement system using Visual Studio C#
+# Developing frontend for a cruise ship management system using Visual Studio C#
