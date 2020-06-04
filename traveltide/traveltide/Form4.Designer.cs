@@ -30,7 +30,6 @@
         {
             this.panelSideMenu = new System.Windows.Forms.Panel();
             this.button11 = new System.Windows.Forms.Button();
-            this.panel4 = new System.Windows.Forms.Panel();
             this.button10 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
@@ -43,18 +42,21 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.panel5 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.button12 = new System.Windows.Forms.Button();
             this.panelSideMenu.SuspendLayout();
-            this.panel4.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
+            this.panel4.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelSideMenu
             // 
             this.panelSideMenu.AutoScroll = true;
             this.panelSideMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(78)))), ((int)(((byte)(184)))), ((int)(((byte)(206)))));
+            this.panelSideMenu.Controls.Add(this.button12);
             this.panelSideMenu.Controls.Add(this.button11);
             this.panelSideMenu.Controls.Add(this.panel4);
             this.panelSideMenu.Controls.Add(this.button8);
@@ -85,16 +87,6 @@
             this.button11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button11.UseVisualStyleBackColor = true;
             this.button11.Click += new System.EventHandler(this.button11_Click);
-            // 
-            // panel4
-            // 
-            this.panel4.Controls.Add(this.button10);
-            this.panel4.Controls.Add(this.button9);
-            this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel4.Location = new System.Drawing.Point(0, 442);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(250, 62);
-            this.panel4.TabIndex = 7;
             // 
             // button10
             // 
@@ -292,16 +284,6 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // panel5
-            // 
-            this.panel5.BackgroundImage = global::traveltide.Properties.Resources.badalogoreturns;
-            this.panel5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.panel5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel5.Location = new System.Drawing.Point(250, 0);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(700, 600);
-            this.panel5.TabIndex = 3;
-            // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
@@ -312,6 +294,42 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(250, 145);
             this.panel1.TabIndex = 1;
+            // 
+            // panel5
+            // 
+            this.panel5.BackgroundImage = global::traveltide.Properties.Resources.badalogoreturns;
+            this.panel5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.panel5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel5.Location = new System.Drawing.Point(250, 0);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(700, 600);
+            this.panel5.TabIndex = 3;
+            // 
+            // panel4
+            // 
+            this.panel4.Controls.Add(this.button10);
+            this.panel4.Controls.Add(this.button9);
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel4.Location = new System.Drawing.Point(0, 442);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(250, 62);
+            this.panel4.TabIndex = 7;
+            // 
+            // button12
+            // 
+            this.button12.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button12.FlatAppearance.BorderSize = 0;
+            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button12.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
+            this.button12.Location = new System.Drawing.Point(0, 549);
+            this.button12.Name = "button12";
+            this.button12.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.button12.Size = new System.Drawing.Size(250, 45);
+            this.button12.TabIndex = 9;
+            this.button12.Text = "Special Cruise";
+            this.button12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button12.UseVisualStyleBackColor = true;
             // 
             // Form4
             // 
@@ -327,9 +345,9 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form4";
             this.panelSideMenu.ResumeLayout(false);
-            this.panel4.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
+            this.panel4.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -337,7 +355,6 @@
         #endregion
 
         private System.Windows.Forms.Panel panelSideMenu;
-        private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Button button8;
@@ -353,5 +370,7 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button button11;
         private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Button button12;
     }
 }

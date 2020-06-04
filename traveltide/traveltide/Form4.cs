@@ -127,5 +127,15 @@ namespace traveltide
             childForm.BringToFront();
             childForm.Show();
         }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button12_Click_1(object sender, EventArgs e)
+        {
+            hideSubMenu();
+        }
     }
 }
